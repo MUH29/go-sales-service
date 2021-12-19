@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "a2515a12-f83b-462a-b647-e4f08ae949de",
+		"name": "go-sales-service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Echo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base}}/",
+					"host": [
+						"{{base}}"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base",
+			"value": "http://localhost:8080"
+		}
+	]
+}
